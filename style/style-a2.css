@@ -1,0 +1,1193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.font{
+  font-family: "Inter", sans-serif;
+}
+
+/* shared style */
+*{
+  
+ margin: 0;
+ padding: 0;
+  
+}
+ 
+.miami-1{
+  font-family: 'Miama', sans-serif;
+  font-weight: 400;
+  font-size: 8rem;}
+
+.title-color{
+  color: rgb(230, 83, 60);
+}
+
+.item-border{
+  width: 92px;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px 8px 20px;
+  margin: 0px 47px;
+  border-radius: 46px;
+  color: rgb(255, 255, 255);
+
+background: rgb(230, 83, 60);
+}
+
+
+/* nav container */
+.nav-container{
+  width: 1150px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 90px;
+ 
+ 
+}
+
+.humburger{
+  visibility: hidden;
+}
+
+.nav-container ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 30px;
+  padding-left: 10px;
+ 
+}
+
+.nav-container ul li a{
+  text-decoration: none;
+  color: black;
+  
+  
+ 
+}
+
+.contact-div{
+  width: 450px;
+  height: 46px;
+  padding: 4px;
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+
+
+}
+
+.contact-div ul li a{
+  width: 68px;
+  height: 22px;
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: auto;
+margin-left: -12px;
+margin-top: -2px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 120%;
+text-align: left;
+}
+
+
+body{
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+ background-repeat: no-repeat;
+ box-sizing: border-box;
+ font-family: "Inter", sans-serif;
+ margin-top: 10px;
+ max-width: 1240px;
+}
+
+.title-style{
+ 
+font-family: Inter;
+font-size: 36px;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+/* banner section style */
+
+.banner-parent{
+display: flex;
+justify-content: space-between;
+width: 100%;
+gap: 100px;
+margin-left: 90px;
+
+}
+
+.text-div{
+  width: 50%;
+  margin-left: 0px;
+  margin-top: 80px;
+}
+
+.text-div-title{
+  width: 520px;
+/* height: 242px; */
+/* display: flex; */
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+color: rgb(255, 255, 255);
+
+font-family: Inter;
+font-size: 4.8rem;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+.text-div-description{
+  width: 520px;
+height: 48px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+order: 1;
+margin: 28px 0px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+
+.btn-parent{
+  
+  display: flex;
+  gap: 10px;
+  margin-left: -10px;
+}
+
+.btn-1{
+ 
+height: 54px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 16px 40px 16px 40px;
+border-radius: 42px;
+border: none;
+background: rgb(230, 83, 60);
+
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.1rem;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+
+.btn-2{
+  
+  height: 54px;
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 16px 40px 16px 40px;
+box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.1rem;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.img-div{
+  width: 50%;
+  height: 580px;
+ text-align: center;
+ margin-right: 290px;
+}
+
+.up-card-1{
+  width: 220px;
+  height: 98px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255,0.1);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 17px 53px 41px 24px;
+  margin-left: 340px;
+  margin-top: -460px;
+  
+ 
+}
+
+.span-1{
+  
+  width: 116px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.span-2{
+  width: 150px;
+height: 20px;
+display: flex;
+color: rgba(255, 255, 255, 0.65);
+font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 1px;
+text-align: left;
+}
+
+.down-card-2{
+  position: relative;
+  width: 230px;
+  height: 90px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255,0.1);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 17px 23px 41px 24px;
+  margin-left: -10px;
+  margin-top: 180px;
+  
+  
+}
+
+.round-box{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: rgb(230, 83, 60);
+  border-radius: 100%;
+  left: 10px;
+  bottom: 20px;
+}
+
+.span-3{
+  width: 68px;
+height: 24px;
+color: rgb(250, 250, 249);
+font-family: Inter;
+font-size: 24px;
+font-weight: 900;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+margin-right: 40px;
+}
+.span-4{
+height: 24px;
+color: rgba(239, 237, 232, 0.65);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-left: 30px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+
+
+/* section 2 */
+
+
+.title-div{
+  text-align: center;
+}
+
+
+.div-title-1{
+  
+height: 58px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+.div-description-1{
+  
+height: 48px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+margin: 14px 0px;
+
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: center;
+}
+
+
+/* img div */
+
+.img-parent{
+  width: auto;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  
+}
+
+.circle-img{
+  border-radius: 50%;
+  text-align: center;
+}
+
+.circle-img img{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+
+.circle-img h3{
+  text-align: center;
+}
+
+/* shared img description style */
+
+.img-description{
+  width: 231px;
+height: 36px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+margin: 6px 0px;
+margin-left: 45px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.3px;
+text-align: center;
+}
+
+
+
+
+
+/* run mile div */
+
+.run-mile-parent{
+  height: 100%;
+  display: flex;
+  gap: 200px;
+  margin-top: 100px;
+  margin-left: 50px;
+  border-radius: 18px;
+background: rgb(34, 34, 34);
+  
+}
+
+.run-mile-img{
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+ 
+}
+.run-mile-img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  
+  
+}
+
+.run-mile-text{
+  padding: 20px 20px 20px 30px;
+  
+}
+
+.run-mile-title{
+  width: 520px;
+  height: 282px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+
+.run-mile-description{
+  width: 331px;
+height: 36px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+margin-top: -80px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.3px;
+text-align: left;
+}
+
+
+.run-mile-btn{
+  width: 214px;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 40px 16px 40px;
+  margin-top: 50px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  border: none;
+}
+
+
+.hidden{
+  display: none;
+}
+
+/* training div styles */
+
+.training-div-parent{
+  margin-top: 60px;
+  margin-left: 60px;
+  
+}
+.training-div-title{
+  width: 100%;
+  height: 112px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 4.8rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left; 
+}
+
+.training-div-description{
+width: 650px;
+height: 48px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+
+}
+
+
+/* exercise-img-div style */
+.training-flex-container{
+  margin-top: 50px;
+ 
+}
+
+.row{
+display: flex;
+margin-left: 60px;
+}
+
+
+.row2{
+  display: flex;
+  margin-left: 60px;
+  
+}
+
+
+.item1{
+  position: relative;
+  width: 295px;
+  height: 213px;
+ background-image: linear-gradient(rgba(6, 255, 210, 0.5),rgba(6, 255, 210, 0.5)),url(../images/exercise1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.overlay-1{
+  position: absolute;
+ color: rgb(0, 0, 0);
+ font-family: Inter;
+ font-size: 14px;
+ font-weight: 500;
+ line-height: 17px;
+ letter-spacing: 0px;
+ bottom: 20px;
+ left: 20px;
+ }
+
+.item2{
+  position: relative;
+  width: 520px;
+  height: 213px;
+  background-image: linear-gradient( rgba(255, 0, 0, 0.3),rgba(255, 0, 0, 0.3)),url(../images/exercise2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay-2{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  top: 25px;
+  left: 25px;
+  }
+
+
+  .item3{
+  position: relative;
+  width: 295px;
+  height: 213px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/exercise3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+.overlay-3{
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0px;
+text-align: left;
+bottom: 0px;
+left: 20px;
+}
+
+
+
+.item4{
+  position: relative;
+  width: 390px;
+  height: 213px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/exercise4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.overlay-4{
+width: 150px;
+position: absolute;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0px;
+text-align: left;
+top: 20px;
+left: 220px;
+}
+
+.item5{
+  position: relative;
+  width: 320px;
+  height: 213px;
+  background-image: linear-gradient( rgba(66, 255, 0, 0.3),rgba(66, 255, 0, 0.3)),url(../images/exercise5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+
+.overlay-5{
+  position: absolute;
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0px;
+text-align: left;
+bottom: 50px;
+left: 10px;
+}
+
+.overlay-6{
+  position: absolute;
+  width: 150px;
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0px;
+text-align: left;
+bottom: 50px;
+left: 50px;
+}
+
+
+.item6{
+  position: relative;
+  width: 400px;
+  height: 213px;
+  background-image: linear-gradient( rgba(0, 71, 255, 0.3),rgba(0, 71, 255, 0.3)),url(../images/exercise6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+
+/* style for bmi chart and calculator */
+.flex-bmi{
+  width: 1340px;
+  height: 300px;
+  display: flex;
+  margin-top: 60px;
+  gap: 115px;
+  background-color: rgb(34, 34, 34);
+
+  
+}
+
+table{
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 100px;
+  height: 130px;
+}
+
+.tbl-chart-title{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.5rem;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 105px;
+margin-top: 30px;
+}
+
+table>thead>tr>th{
+  color:rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+padding-left: 10px;
+}
+
+table,tr,th,td{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+padding-left: 10px;
+}
+
+
+/* calculator */
+
+.calc-bmi{
+ margin-left: 105px;
+
+}
+
+.calc-title{
+  color: rgb(255, 255, 255);
+  font-family: inter;
+  font-size: 1.75rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin-top: 30px;
+
+}
+
+.calc-description{
+  width: 555px;
+  display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+margin-top: 5px;
+}
+
+
+.optn-1{
+width: 273px;
+height: 30px;
+font-size: 1rem;
+color: rgba(255, 255, 255, 0.6);
+font-family: Inter;
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+.calc-bmi>select{
+  padding-left: 20px;
+}
+
+.optn-2{
+  width: 550px;
+height: 30px;
+font-size: 1rem;
+font-family: Inter;
+color: rgba(255, 255, 255, 0.6);
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+.calc-bmi>input{
+  width: 269px;
+  height: 30px;
+  font-family: Inter;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+::placeholder{
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 10px 20px;
+}
+
+
+.bmi-btn{
+  width: 140px;
+  height: 25px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 16px 40px 30px 40px;
+border-radius: 42px;
+border: none;
+background: rgb(230, 83, 60);
+
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.1rem;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.bmi-btn-parent{
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive for small device */
+
+@media screen and (max-width:576px) {
+ .nav-container {
+display: flex;
+justify-content: space-between;
+width: 400px;
+margin-left: 15px;
+ }
+ 
+ .contact-div{
+ display: none;
+  
+ }
+
+ 
+
+ .banner-parent{
+  width: auto;
+  display: flex;
+  flex-direction: column ;
+  margin-left: 15px;
+ }
+
+
+
+ .humburger{
+  visibility: visible;
+  filter: brightness(0) invert(1);
+  height: 100%;
+  width: 50px;
+  height: 25px;
+  
+ }
+
+/* nav end here */
+
+ .text-div-title{
+  width: 100%;
+  height: auto;
+  font-size: 1.8rem;
+font-weight: 900;
+line-height: 120%;
+ }
+
+ .miami-1{
+  font-size: 3rem;
+ }
+
+ .text-div-description{
+  width: 285px;
+ height: auto;
+ }
+
+.btn-parent{
+  width: 400px;
+}
+
+.btn-1{
+  padding: 16px;
+  
+}
+.btn-2{
+padding: 16px ; 
+  
+}
+
+img{
+  width: 100%;
+  height: 80%;
+  margin-top: -60px;
+ 
+}
+.img-div{
+ margin-left: 85px;
+}
+
+.up-card-1{
+width: 190px;
+height: 78px;
+margin-left: 120px;
+margin-top: -430px;
+}
+
+.span-1{
+font-size: 2rem;
+line-height: 20px;
+letter-spacing: 1px;
+margin-left:-15px;
+}
+
+.down-card-2{
+  width: 180px;
+  height: 70px;
+  padding: 10px 23px 0px 12px;
+  margin-top: 50px;
+  margin-left: 15px;
+
+}
+
+.span-3{
+  margin-left: 25px;
+}
+
+.round-box{
+  width: 30px;
+  height: 30px;
+}
+
+/* banner part end here */
+
+
+/* section-2 start here */
+
+.img-parent{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 70px;
+  margin-top: 75px;
+}
+
+.divide{
+  margin-top: -180px;
+}
+
+.div-title-1{
+  font-size: 2rem;
+}
+
+.div-description-1{
+  width: 311px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.img-description{
+  margin: 0 auto;
+}
+
+/* section-2 end here */
+
+/* run mile div */
+
+.run-mile-parent{
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px;
+  gap: 50px;
+}
+
+.run-mile-title{
+  width: 100%;
+  height:200px;
+  font-size: 2.8rem;
+}
+
+.run-mile-img{
+  width: auto;
+}
+
+.run-mile-text{
+padding-left: 35px;
+}
+
+.run-mile-btn{
+  margin-left: 40px;
+}
+
+
+/* training div styles */
+
+.training-div-parent{
+  margin-left: 20px;
+}
+
+.training-div-title{
+ font-size: 2.8rem;
+}
+
+.training-div-description{
+  width: 350px;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+.training-flex-container{
+  margin-top: 200px;
+}
+
+
+.row{
+display: flex;
+margin-left: 0px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.item1{
+ 
+  width: 200px;
+}
+.item2{
+width: 210px;
+background-position: center;
+object-fit: none;
+object-position: 66% 33%;
+}
+
+.item3{
+  display: none;
+}
+
+.row2{
+  margin-left: 0px;
+  padding-left: 15px;
+ padding-right: 15px;
+}
+
+.overlay-4{
+  left: 30px;
+  top: 100px;
+}
+
+
+.item6{
+  display: none;
+}
+
+
+/* bmi styles */
+
+.flex-bmi{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.tbl-chart-title{
+  margin-left: 20px;
+}
+
+table{
+  margin-left: 20px;
+}
+
+.calc-bmi{
+  margin-left: 20px;
+}
+
+.calc-description{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.calc-bmi>input{
+  width: 120px;
+  height: 40px;
+}
+
+.optn-1{
+  width: 123px;
+  height: 40px;
+}
+
+.optn-2{
+  width: 252px;
+  height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
