@@ -1427,7 +1427,7 @@ padding-left: 35px;
 
 
 .training-flex-container{
-  margin-top: 200px;
+  margin-top: 40px;
 }
 
 
@@ -1513,6 +1513,36 @@ table{
   width: 252px;
   height: 40px;
 }
+
+
+/* fitness goal div */
+.goal-div{
+  width: auto;
+  height: 600px;
+}
+
+.goal-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.fitness-goal{
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.goal-title-1{
+  font-size: 1.7rem;
+}
+
+.goal-btn{
+  left: 5px;
+  top: 535px;
+}
+
+
 
 
 
